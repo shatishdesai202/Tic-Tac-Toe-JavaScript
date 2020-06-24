@@ -2,10 +2,12 @@
 
 
 
-Function :
+Game -Functionality :
     --> Score Reset
     --> Game Reset
-Proporty(CSS) Used :
+
+
+    Proporty(CSS) Used :
         `.style.pointerEvents = 'none'`
         `.style.pointerEvents = 'auto'`
         
