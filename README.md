@@ -7,13 +7,13 @@ Game -Functionality :
     --> Game Reset
 
 
-    Proporty(CSS) Used :
-        `.style.pointerEvents = 'none'`
-        `.style.pointerEvents = 'auto'`
+Proporty(CSS) Used :
+`.style.pointerEvents = 'none'`
+`.style.pointerEvents = 'auto'`
         
-        Game Logic
+                                    Game Logic
         
-function winner() {
+   function winner() {
     if (check(1, 2, 3, sign) || check(4, 5, 6, sign) || check(7, 8, 9, sign) || check(1, 5, 9, sign) || check(3, 5, 7, sign) || check(1, 4, 7, sign) || check(2, 5, 8, sign) || check(3, 6, 9, sign)) {
         dis()
         document.getElementById('message').innerText = `${sign} Winner`
