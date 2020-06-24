@@ -25,14 +25,14 @@ Proporty(CSS) Used :
         document.getElementById('scoreo').innerText = scoreO
         document.getElementById('scorex').innerText = scoreX
 
-        return true
-    }
-    else{
-        if(getbox(1)!=""&& getbox(2)!=""&& getbox(3)!=""&&
-       getbox(4)!=""&& getbox(5)!=""&& getbox(6)!=""&&
-       getbox(7)!=""&& getbox(8)!=""&& getbox(9)!=""){
-    
-        document.getElementById('message').innerText = 'draw'
-       }
+return true
+}
+else{
+    if(getbox(1)!=""&& getbox(2)!=""&& getbox(3)!=""&&
+   getbox(4)!=""&& getbox(5)!=""&& getbox(6)!=""&&
+   getbox(7)!=""&& getbox(8)!=""&& getbox(9)!=""){
+
+    document.getElementById('message').innerText = 'draw'
+   }
 
 }
